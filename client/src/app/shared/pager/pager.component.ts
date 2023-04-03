@@ -13,7 +13,6 @@ export class PagerComponent implements OnInit
 
 
   ngOnInit(): void {
-    console.log(this.totalCount+";;"+this.pageSize);
   }
 
   onPagerChanged(event: any) {
